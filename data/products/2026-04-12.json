@@ -1,0 +1,108 @@
+{
+  "date": "2026-04-12",
+  "updatedBy": "openclaw-bot",
+  "products": [
+    {
+      "id": "prod-20260412-001",
+      "name": "智能手表表带",
+      "description": "适配Apple Watch的多彩硅胶表带，多种颜色可选，柔软舒适，防汗防水",
+      "category": "electronics",
+      "potential": "high",
+      "margin": 45,
+      "demand": 85,
+      "competition": "medium",
+      "score": 8.5,
+      "platform": "Amazon",
+      "price": {
+        "cost": 3.50,
+        "sell": 12.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "深圳XX电子",
+        "moq": 100,
+        "leadTime": "7-10天"
+      },
+      "tags": ["热销", "高利润", "快速发货"],
+      "notes": "Apple Watch表带市场需求稳定，复购率高，建议备货多种颜色"
+    },
+    {
+      "id": "prod-20260412-002",
+      "name": "便携式LED化妆镜",
+      "description": "可折叠三面镜，内置充电电池，三档亮度调节，适合旅行和日常使用",
+      "category": "home",
+      "potential": "high",
+      "margin": 52,
+      "demand": 78,
+      "competition": "low",
+      "score": 9.0,
+      "platform": "eBay",
+      "price": {
+        "cost": 8.00,
+        "sell": 24.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "广州XX家居",
+        "moq": 50,
+        "leadTime": "5-7天"
+      },
+      "tags": ["新品", "高利润", "低竞争"],
+      "notes": "化妆镜市场竞争相对较小，利润空间大，适合作为主推产品"
+    },
+    {
+      "id": "prod-20260412-003",
+      "name": "车载手机支架",
+      "description": "磁吸式360度旋转，适配所有车型和手机，安装简单，稳固不掉落",
+      "category": "electronics",
+      "potential": "medium",
+      "margin": 38,
+      "demand": 72,
+      "competition": "high",
+      "score": 7.2,
+      "platform": "AliExpress",
+      "price": {
+        "cost": 2.80,
+        "sell": 9.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "东莞XX科技",
+        "moq": 200,
+        "leadTime": "10-15天"
+      },
+      "tags": ["刚需", "薄利多销"],
+      "notes": "市场竞争激烈，需要通过营销和差异化来突围，可考虑打造品牌"
+    },
+    {
+      "id": "prod-20260412-004",
+      "name": "运动水壶套装",
+      "description": "不锈钢保温壶+硅胶套，24小时保温保冷，防漏设计，适合运动健身",
+      "category": "sports",
+      "potential": "medium",
+      "margin": 42,
+      "demand": 68,
+      "competition": "medium",
+      "score": 7.8,
+      "platform": "Amazon",
+      "price": {
+        "cost": 6.50,
+        "sell": 18.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "浙江XX不锈钢",
+        "moq": 100,
+        "leadTime": "7-10天"
+      },
+      "tags": ["季节性", "健身热"],
+      "notes": "春夏季需求旺盛，建议提前备货，可搭配运动周边产品销售"
+    }
+  ],
+  "summary": {
+    "totalProducts": 4,
+    "highPotential": 2,
+    "avgMargin": 44.25,
+    "topCategory": "electronics"
+  }
+}

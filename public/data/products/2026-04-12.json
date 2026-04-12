@@ -4,157 +4,313 @@
   "products": [
     {
       "id": "prod-20260412-001",
-      "name": "智能手表表带",
-      "description": "适配Apple Watch的多彩硅胶表带，多种颜色可选，柔软舒适，防汗防水",
-      "category": "electronics",
+      "name": "天然水晶项链",
+      "description": "粉水晶/紫水晶手工编织项链，配合能量疗愈营销，主打情绪价值和招桃花概念",
+      "category": "fashion",
       "potential": "high",
       "potentialText": "高潜力",
-      "margin": 45,
-      "demand": 85,
+      "margin": 85,
+      "demand": 88,
       "competition": "medium",
-      "score": 8.5,
-      "platform": "Amazon",
+      "score": 9.2,
+      "platform": "Etsy",
       "price": {
-        "cost": 3.5,
-        "sell": 12.99,
+        "cost": 2.5,
+        "sell": 45.00,
         "currency": "USD"
       },
       "supplier": {
-        "name": "深圳电子配件厂",
-        "moq": 100,
-        "leadTime": "7-10天"
-      },
-      "links": {
-        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%89%8B%E8%A1%A8%E8%A1%A8%E5%B8%A6",
-        "etsy": "https://www.etsy.com/search?q=apple+watch+band",
-        "search": {
-          "1688_keyword": "硅胶表带 Apple Watch",
-          "etsy_keyword": "apple watch silicone band"
-        }
-      },
-      "tags": [
-        "热销",
-        "高利润",
-        "快速发货"
-      ],
-      "notes": "Apple Watch表带市场需求稳定，复购率高，建议备货多种颜色"
-    },
-    {
-      "id": "prod-20260412-002",
-      "name": "便携式LED化妆镜",
-      "description": "可折叠三面镜，内置充电电池，三档亮度调节，适合旅行和日常使用",
-      "category": "home",
-      "potential": "high",
-      "potentialText": "高潜力",
-      "margin": 52,
-      "demand": 78,
-      "competition": "low",
-      "score": 9.0,
-      "platform": "eBay",
-      "price": {
-        "cost": 8.0,
-        "sell": 24.99,
-        "currency": "USD"
-      },
-      "supplier": {
-        "name": "广州家居用品",
-        "moq": 50,
+        "name": "江苏东海水晶产地",
+        "moq": 30,
         "leadTime": "5-7天"
       },
       "links": {
-        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=LED%E5%8C%96%E5%A6%86%E9%95%9C",
-        "etsy": "https://www.etsy.com/search?q=led+makeup+mirror",
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B0%B4%E6%99%B6%E9%A1%B9%E9%93%BE",
+        "etsy": "https://www.etsy.com/search?q=crystal+healing+necklace",
         "search": {
-          "1688_keyword": "LED化妆镜 便携",
-          "etsy_keyword": "portable led makeup mirror"
+          "1688_keyword": "天然水晶项链",
+          "etsy_keyword": "crystal healing necklace"
         }
       },
       "tags": [
-        "女性市场",
-        "礼品",
-        "高复购"
+        "玄学",
+        "高溢价",
+        "情绪价值",
+        "86倍溢价"
       ],
-      "notes": "美容类产品，女性用户粘性高，适合节日促销和礼品市场"
+      "notes": "水晶成本2-5元，配合玄学营销（招桃花、能量疗愈）可卖到45-150美元。粉水晶、紫水晶最受欢迎。Buddha Stones品牌实现30倍溢价。"
     },
     {
-      "id": "prod-20260412-003",
-      "name": "磁吸车载手机支架",
-      "description": "强磁吸附，360度旋转，适配所有手机，安装简单，牢固稳定",
-      "category": "electronics",
-      "potential": "medium",
-      "potentialText": "中潜力",
-      "margin": 38,
-      "demand": 82,
-      "competition": "high",
-      "score": 7.8,
-      "platform": "Amazon",
+      "id": "prod-20260412-002",
+      "name": "合金复古戒指",
+      "description": "复古宫廷风戒指，镶嵌人造宝石，可调节尺寸，适合日常佩戴和拍照",
+      "category": "fashion",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 88,
+      "demand": 85,
+      "competition": "low",
+      "score": 9.0,
+      "platform": "Etsy",
       "price": {
-        "cost": 4.2,
-        "sell": 15.99,
-        "currency": "USD"
-      },
-      "supplier": {
-        "name": "东莞XX科技",
-        "moq": 200,
-        "leadTime": "7-10天"
-      },
-      "links": {
-        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%A6%E8%BD%BD%E6%94%AF%E6%9E%B6",
-        "etsy": "https://www.etsy.com/search?q=magnetic+car+phone+holder",
-        "search": {
-          "1688_keyword": "磁吸车载支架",
-          "etsy_keyword": "magnetic car mount"
-        }
-      },
-      "tags": [
-        "刚需",
-        "竞争激烈",
-        "走量"
-      ],
-      "notes": "市场竞争激烈，需要通过优质服务和快速物流取胜"
-    },
-    {
-      "id": "prod-20260412-004",
-      "name": "运动水壶（带时间刻度）",
-      "description": "1L大容量，Tritan材质，带时间刻度提醒喝水，防漏设计，多色可选",
-      "category": "sports",
-      "potential": "medium",
-      "potentialText": "中潜力",
-      "margin": 42,
-      "demand": 75,
-      "competition": "medium",
-      "score": 8.2,
-      "platform": "TikTok Shop",
-      "price": {
-        "cost": 5.5,
+        "cost": 0.80,
         "sell": 18.99,
         "currency": "USD"
       },
       "supplier": {
-        "name": "义乌XX塑料",
+        "name": "义乌饰品批发市场",
+        "moq": 50,
+        "leadTime": "3-5天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%A4%8D%E5%8F%A4%E6%88%92%E6%8C%87",
+        "etsy": "https://www.etsy.com/search?q=vintage+adjustable+ring",
+        "search": {
+          "1688_keyword": "复古戒指 可调节",
+          "etsy_keyword": "vintage adjustable ring"
+        }
+      },
+      "tags": [
+        "超高溢价",
+        "小成本",
+        "96倍溢价",
+        "快时尚"
+      ],
+      "notes": "义乌批发价0.8-2元，Etsy定价15-35美元。复古、宫廷、哥特等风格最受欢迎，配合精美包装和故事营销溢价更高。"
+    },
+    {
+      "id": "prod-20260412-003",
+      "name": "手工编织手链",
+      "description": "彩色编绳手链，可定制文字/图案，适合友情、情侣、家庭纪念",
+      "category": "fashion",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 90,
+      "demand": 92,
+      "competition": "low",
+      "score": 9.3,
+      "platform": "Etsy",
+      "price": {
+        "cost": 0.50,
+        "sell": 12.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "浙江义乌编绳工坊",
+        "moq": 100,
+        "leadTime": "3-5天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%BC%96%E7%BB%B3%E6%89%8B%E9%93%BE",
+        "etsy": "https://www.etsy.com/search?q=friendship+bracelet+custom",
+        "search": {
+          "1688_keyword": "编绳手链 定制",
+          "etsy_keyword": "custom friendship bracelet"
+        }
+      },
+      "tags": [
+        "超高溢价",
+        "可定制",
+        "128倍溢价",
+        "情感营销"
+      ],
+      "notes": "编绳成本0.5元，定制化服务可卖12.99美元。友情手链、情侣手链情感附加值高，复购率极高。支持名字、星座、生日定制。"
+    },
+    {
+      "id": "prod-20260412-004",
+      "name": "景泰蓝耳环",
+      "description": "铜胎掐丝珐琅小耳环，传统工艺，轻盈不过敏，独特东方美学",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 75,
+      "demand": 70,
+      "competition": "low",
+      "score": 8.2,
+      "platform": "Etsy",
+      "price": {
+        "cost": 3.50,
+        "sell": 35.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "北京景泰蓝工坊",
+        "moq": 30,
+        "leadTime": "10-14天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%99%AF%E6%B3%B0%E8%93%9D%E8%80%B3%E7%8E%AF",
+        "etsy": "https://www.etsy.com/search?q=cloisonne+earrings",
+        "search": {
+          "1688_keyword": "景泰蓝耳环",
+          "etsy_keyword": "cloisonne enamel earrings"
+        }
+      },
+      "tags": [
+        "非遗",
+        "文化",
+        "60倍溢价",
+        "轻奢"
+      ],
+      "notes": "景泰蓝小饰品批发价3-8元，海外市场作为非遗工艺品溢价高。小耳环重量轻、运费低，适合跨境。带非遗证书溢价更高。"
+    },
+    {
+      "id": "prod-20260412-005",
+      "name": "刺绣发夹",
+      "description": "苏绣/湘绣发夹，真丝底布，手工刺绣，古风汉服配饰",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 78,
+      "demand": 75,
+      "competition": "low",
+      "score": 8.5,
+      "platform": "Etsy",
+      "price": {
+        "cost": 2.80,
+        "sell": 28.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "江苏苏州刺绣工坊",
+        "moq": 50,
+        "leadTime": "10-14天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%88%BA%E7%BB%A3%E5%8F%91%E5%A4%B9",
+        "etsy": "https://www.etsy.com/search?q=embroidered+hair+clip",
+        "search": {
+          "1688_keyword": "刺绣发夹 苏绣",
+          "etsy_keyword": "chinese embroidered hair clip"
+        }
+      },
+      "tags": [
+        "刺绣",
+        "古风",
+        "60倍溢价",
+        "汉服配饰"
+      ],
+      "notes": "刺绣发夹成本2.8-8元，真丝刺绣溢价更高。古风、汉服文化在海外兴起，配饰需求旺盛。配合汉服博主营销效果好。"
+    },
+    {
+      "id": "prod-20260412-006",
+      "name": "折纸艺术书签",
+      "description": "立体折纸书签，樱花/动物/几何图案，精美礼盒包装",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 92,
+      "demand": 82,
+      "competition": "low",
+      "score": 9.1,
+      "platform": "Etsy",
+      "price": {
+        "cost": 0.35,
+        "sell": 8.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌纸艺工坊",
+        "moq": 200,
+        "leadTime": "3-5天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%8A%98%E7%BA%B8%E4%B9%A6%E7%AD%BE",
+        "etsy": "https://www.etsy.com/search?q=origami+bookmark",
+        "search": {
+          "1688_keyword": "立体折纸书签",
+          "etsy_keyword": "3d origami bookmark"
+        }
+      },
+      "tags": [
+        "超高溢价",
+        "纸艺",
+        "240倍溢价",
+        "文艺礼品"
+      ],
+      "notes": "折纸书签成本0.35元，配精美包装可卖8.99美元。樱花、动物造型最受欢迎。适合节日礼品市场，走量利润高。"
+    },
+    {
+      "id": "prod-20260412-007",
+      "name": "软陶耳钉",
+      "description": "手工软陶耳钉，水果/甜点/动物造型，轻盈可爱，防过敏",
+      "category": "fashion",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 88,
+      "demand": 90,
+      "competition": "medium",
+      "score": 9.0,
+      "platform": "Etsy",
+      "price": {
+        "cost": 0.60,
+        "sell": 12.99,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌软陶工坊",
         "moq": 100,
         "leadTime": "5-7天"
       },
       "links": {
-        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BF%90%E5%8A%A8%E6%B0%B4%E5%A3%B6",
-        "etsy": "https://www.etsy.com/search?q=motivational+water+bottle",
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%AF%E9%99%B6%E8%80%B3%E9%92%89",
+        "etsy": "https://www.etsy.com/search?q=polymer+clay+earrings",
         "search": {
-          "1688_keyword": "运动水壶 时间刻度",
-          "etsy_keyword": "time marker water bottle"
+          "1688_keyword": "软陶耳钉 手工",
+          "etsy_keyword": "handmade polymer clay earrings"
         }
       },
       "tags": [
-        "健身",
-        "TikTok爆款",
-        "健康生活"
+        "超高溢价",
+        "手工",
+        "196倍溢价",
+        "少女系"
       ],
-      "notes": "健康生活趋势产品，TikTok带货效果好，建议配合健身博主营销"
+      "notes": "软陶耳钉成本0.6-1.5元，手工制作标签溢价高。水果、甜点造型最受欢迎。重量极轻，运费成本低，利润空间大。"
+    },
+    {
+      "id": "prod-20260412-008",
+      "name": "中国风胸针",
+      "description": "景泰蓝/刺绣工艺胸针，传统图案（龙凤/牡丹/云纹），可做装饰或礼品",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 73,
+      "demand": 68,
+      "competition": "low",
+      "score": 7.8,
+      "platform": "Etsy",
+      "price": {
+        "cost": 3.20,
+        "sell": 28.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "北京/苏州工艺品",
+        "moq": 30,
+        "leadTime": "10-15天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%B8%AD%E5%9B%BD%E9%A3%8E%E8%83%B8%E9%92%88",
+        "etsy": "https://www.etsy.com/search?q=chinese+traditional+brooch",
+        "search": {
+          "1688_keyword": "景泰蓝胸针",
+          "etsy_keyword": "chinese enamel brooch"
+        }
+      },
+      "tags": [
+        "文化",
+        "非遗",
+        "54倍溢价",
+        "艺术品"
+      ],
+      "notes": "中国风胸针成本3-8元，作为艺术装饰品溢价高。龙凤、牡丹等传统图案受欢迎。适合送礼和个人收藏市场。"
     }
   ],
   "summary": {
-    "totalProducts": 4,
-    "highPotential": 2,
-    "avgMargin": 44.25,
-    "topCategory": "electronics"
+    "totalProducts": 8,
+    "highPotential": 5,
+    "avgMargin": 83.6,
+    "topCategory": "fashion"
   }
 }

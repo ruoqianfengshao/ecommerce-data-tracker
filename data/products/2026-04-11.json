@@ -5,7 +5,7 @@
     {
       "id": "prod-20260411-001",
       "name": "天然葫芦工艺品",
-      "description": "天然葫芦经彩绘设计，主打手工环保概念。Etsy搜索calabash gourd热销",
+      "description": "天然葫芦经彩绘设计，主打手工环保概念",
       "category": "home",
       "potential": "high",
       "potentialText": "高潜力",
@@ -15,8 +15,8 @@
       "score": 9.2,
       "platform": "Etsy",
       "price": {
-        "cost": 6.50,
-        "sell": 83.00,
+        "cost": 0.9,
+        "sell": 83.0,
         "currency": "USD"
       },
       "supplier": {
@@ -24,13 +24,61 @@
         "moq": 50,
         "leadTime": "7-10天"
       },
-      "tags": ["超高溢价", "手工艺", "环保"],
-      "notes": "溢价高达120倍，利用手工、环保概念在美国市场月销数百单"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%91%AB%E8%8A%A6%E5%B7%A5%E8%89%BA%E5%93%81",
+        "etsy": "https://www.etsy.com/search?q=calabash+gourd+painted",
+        "search": {
+          "1688_keyword": "葫芦工艺品",
+          "etsy_keyword": "calabash gourd"
+        }
+      },
+      "tags": [
+        "超高溢价",
+        "手工",
+        "环保"
+      ],
+      "notes": "120倍溢价，月销数百单"
     },
     {
       "id": "prod-20260411-002",
-      "name": "竹编米勺（非遗）",
-      "description": "贵州非遗竹编米勺，环保竹制+手工标签，Etsy累计11.5万单",
+      "name": "丝瓜络天然清洁用品",
+      "description": "天然丝瓜络搓澡巾，环保可降解",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 93,
+      "demand": 88,
+      "competition": "low",
+      "score": 9.0,
+      "platform": "Amazon",
+      "price": {
+        "cost": 0.3,
+        "sell": 12.97,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "河南信阳",
+        "moq": 500,
+        "leadTime": "5-7天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%B8%9D%E7%93%9C%E7%BB%9C",
+        "etsy": "https://www.etsy.com/search?q=natural+loofah",
+        "search": {
+          "1688_keyword": "丝瓜络",
+          "etsy_keyword": "natural loofah"
+        }
+      },
+      "tags": [
+        "超高溢价",
+        "环保"
+      ],
+      "notes": "186倍溢价，月销8000+"
+    },
+    {
+      "id": "prod-20260411-003",
+      "name": "竹编米勺",
+      "description": "贵州非遗竹编米勺",
       "category": "home",
       "potential": "high",
       "potentialText": "高潜力",
@@ -40,22 +88,177 @@
       "score": 9.0,
       "platform": "Etsy",
       "price": {
-        "cost": 6.50,
-        "sell": 22.00,
+        "cost": 0.9,
+        "sell": 22.0,
         "currency": "USD"
       },
       "supplier": {
-        "name": "贵州非遗竹编工坊",
+        "name": "贵州竹编工坊",
         "moq": 100,
         "leadTime": "10-14天"
       },
-      "tags": ["非遗", "环保", "热销"],
-      "notes": "Etsy总销售额超1805万元，环保竹制+非遗标签成功打入欧美"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%AB%B9%E7%BC%96%E7%B1%B3%E5%8B%BA",
+        "etsy": "https://www.etsy.com/search?q=bamboo+rice+scoop",
+        "search": {
+          "1688_keyword": "竹编米勺",
+          "etsy_keyword": "bamboo rice scoop"
+        }
+      },
+      "tags": [
+        "非遗",
+        "环保"
+      ],
+      "notes": "Etsy累计11.5万单"
     },
     {
-      "id": "prod-20260411-003",
-      "name": "水晶能量手串",
-      "description": "天然水晶手串，配合能量疗愈、招桃花等玄学营销概念",
+      "id": "prod-20260411-004",
+      "name": "中国结流苏挂件",
+      "description": "传统中国结配流苏",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 90,
+      "demand": 82,
+      "competition": "medium",
+      "score": 8.6,
+      "platform": "Amazon",
+      "price": {
+        "cost": 0.4,
+        "sell": 15.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌中国结厂",
+        "moq": 200,
+        "leadTime": "3-5天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%B8%AD%E5%9B%BD%E7%BB%93",
+        "etsy": "https://www.etsy.com/search?q=chinese+knot",
+        "search": {
+          "1688_keyword": "中国结流苏",
+          "etsy_keyword": "chinese knot tassel"
+        }
+      },
+      "tags": [
+        "文化",
+        "装饰"
+      ],
+      "notes": "216倍溢价，节日礼品"
+    },
+    {
+      "id": "prod-20260411-005",
+      "name": "中国剪纸",
+      "description": "传统手工剪纸艺术品",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 90,
+      "demand": 75,
+      "competition": "low",
+      "score": 8.5,
+      "platform": "Etsy",
+      "price": {
+        "cost": 0.55,
+        "sell": 70.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "河北蔚县剪纸",
+        "moq": 50,
+        "leadTime": "7-10天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%89%AA%E7%BA%B8",
+        "etsy": "https://www.etsy.com/search?q=chinese+paper+cutting",
+        "search": {
+          "1688_keyword": "中国剪纸",
+          "etsy_keyword": "paper cutting art"
+        }
+      },
+      "tags": [
+        "文化",
+        "手工"
+      ],
+      "notes": "177倍溢价"
+    },
+    {
+      "id": "prod-20260411-006",
+      "name": "紫砂茶宠",
+      "description": "宜兴紫砂茶宠摆件",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 73,
+      "demand": 78,
+      "competition": "medium",
+      "score": 7.8,
+      "platform": "Amazon",
+      "price": {
+        "cost": 2.2,
+        "sell": 55.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "江苏宜兴",
+        "moq": 50,
+        "leadTime": "10-14天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%B4%AB%E7%A0%82%E8%8C%B6%E5%AE%A0",
+        "etsy": "https://www.etsy.com/search?q=yixing+tea+pet",
+        "search": {
+          "1688_keyword": "紫砂茶宠",
+          "etsy_keyword": "tea pet"
+        }
+      },
+      "tags": [
+        "禅意",
+        "东方"
+      ],
+      "notes": "57倍溢价"
+    },
+    {
+      "id": "prod-20260411-007",
+      "name": "青花瓷茶杯",
+      "description": "景德镇青花瓷杯",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 70,
+      "demand": 80,
+      "competition": "medium",
+      "score": 7.5,
+      "platform": "Amazon",
+      "price": {
+        "cost": 2.1,
+        "sell": 40.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "景德镇",
+        "moq": 100,
+        "leadTime": "10-15天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%9D%92%E8%8A%B1%E7%93%B7",
+        "etsy": "https://www.etsy.com/search?q=porcelain+tea+cup",
+        "search": {
+          "1688_keyword": "青花瓷茶杯",
+          "etsy_keyword": "porcelain tea cup"
+        }
+      },
+      "tags": [
+        "陶瓷",
+        "景德镇"
+      ],
+      "notes": "36倍溢价"
+    },
+    {
+      "id": "prod-20260411-008",
+      "name": "水晶手串",
+      "description": "天然水晶能量手串",
       "category": "fashion",
       "potential": "high",
       "potentialText": "高潜力",
@@ -65,22 +268,177 @@
       "score": 8.7,
       "platform": "Etsy",
       "price": {
-        "cost": 25.00,
-        "sell": 150.00,
+        "cost": 3.5,
+        "sell": 150.0,
         "currency": "USD"
       },
       "supplier": {
-        "name": "江苏东海水晶之都",
+        "name": "江苏东海",
         "moq": 50,
         "leadTime": "5-7天"
       },
-      "tags": ["玄学", "高溢价", "情绪价值"],
-      "notes": "江苏东海出厂成本15元，配合玄学营销可卖到199美元"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%B0%B4%E6%99%B6%E6%89%8B%E4%B8%B2",
+        "etsy": "https://www.etsy.com/search?q=crystal+bracelet",
+        "search": {
+          "1688_keyword": "水晶手串",
+          "etsy_keyword": "crystal healing bracelet"
+        }
+      },
+      "tags": [
+        "玄学",
+        "高溢价"
+      ],
+      "notes": "95倍溢价，玄学营销"
     },
     {
-      "id": "prod-20260411-004",
+      "id": "prod-20260411-009",
+      "name": "苏绣手帕",
+      "description": "苏绣刺绣手帕",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 75,
+      "demand": 68,
+      "competition": "low",
+      "score": 7.8,
+      "platform": "Etsy",
+      "price": {
+        "cost": 2.8,
+        "sell": 55.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "苏州刺绣",
+        "moq": 50,
+        "leadTime": "15-20天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%8B%8F%E7%BB%A3",
+        "etsy": "https://www.etsy.com/search?q=embroidered+handkerchief",
+        "search": {
+          "1688_keyword": "苏绣手帕",
+          "etsy_keyword": "embroidered handkerchief"
+        }
+      },
+      "tags": [
+        "刺绣",
+        "奢侈品"
+      ],
+      "notes": "57倍溢价"
+    },
+    {
+      "id": "prod-20260411-010",
+      "name": "中国风折扇",
+      "description": "竹制工艺折扇",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 72,
+      "demand": 80,
+      "competition": "medium",
+      "score": 7.6,
+      "platform": "TikTok Shop",
+      "price": {
+        "cost": 1.4,
+        "sell": 20.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "杭州扇子",
+        "moq": 100,
+        "leadTime": "7-10天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%8A%98%E6%89%87",
+        "etsy": "https://www.etsy.com/search?q=chinese+folding+fan",
+        "search": {
+          "1688_keyword": "竹制折扇",
+          "etsy_keyword": "chinese fan"
+        }
+      },
+      "tags": [
+        "TikTok",
+        "工艺品"
+      ],
+      "notes": "43倍溢价"
+    },
+    {
+      "id": "prod-20260411-011",
+      "name": "香薰蜡烛",
+      "description": "手工香薰蜡烛",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 70,
+      "demand": 75,
+      "competition": "medium",
+      "score": 7.5,
+      "platform": "Etsy",
+      "price": {
+        "cost": 1.4,
+        "sell": 25.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌蜡烛",
+        "moq": 100,
+        "leadTime": "5-7天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%A6%99%E8%96%B0%E8%9C%A1%E7%83%9B",
+        "etsy": "https://www.etsy.com/search?q=handmade+candle",
+        "search": {
+          "1688_keyword": "香薰蜡烛",
+          "etsy_keyword": "handmade candle"
+        }
+      },
+      "tags": [
+        "手工",
+        "氛围"
+      ],
+      "notes": "64倍溢价"
+    },
+    {
+      "id": "prod-20260411-012",
+      "name": "竹编发酵篮",
+      "description": "竹编面包发酵篮",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 78,
+      "demand": 85,
+      "competition": "low",
+      "score": 8.2,
+      "platform": "Amazon",
+      "price": {
+        "cost": 1.5,
+        "sell": 28.69,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "竹编产地",
+        "moq": 100,
+        "leadTime": "7-10天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%AB%B9%E7%BC%96",
+        "etsy": "https://www.etsy.com/search?q=bread+proofing+basket",
+        "search": {
+          "1688_keyword": "竹编发酵篮",
+          "etsy_keyword": "bamboo proofing basket"
+        }
+      },
+      "tags": [
+        "环保",
+        "烘焙"
+      ],
+      "notes": "月销7000+"
+    },
+    {
+      "id": "prod-20260411-013",
       "name": "干花书签",
-      "description": "天然压花书签，主打手工制作情绪价值，TikTok爆款",
+      "description": "压花书签",
       "category": "home",
       "potential": "high",
       "potentialText": "高潜力",
@@ -91,46 +449,320 @@
       "platform": "TikTok Shop",
       "price": {
         "cost": 0.65,
-        "sell": 10.00,
+        "sell": 10.0,
         "currency": "USD"
       },
       "supplier": {
-        "name": "义乌干花工艺品",
+        "name": "义乌干花",
         "moq": 200,
         "leadTime": "3-5天"
       },
-      "tags": ["超高溢价", "TikTok爆款", "文艺"],
-      "notes": "成本0.3-1元，通过TikTok视频展示制作过程，月销1.8万单"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%B9%B2%E8%8A%B1%E4%B9%A6%E7%AD%BE",
+        "etsy": "https://www.etsy.com/search?q=pressed+flower+bookmark",
+        "search": {
+          "1688_keyword": "干花书签",
+          "etsy_keyword": "pressed flower bookmark"
+        }
+      },
+      "tags": [
+        "TikTok",
+        "文艺"
+      ],
+      "notes": "240倍溢价"
     },
     {
-      "id": "prod-20260411-005",
-      "name": "中国剪纸艺术品",
-      "description": "传统手工剪纸，主打文化艺术标签，精美装裱",
-      "category": "home",
-      "potential": "high",
-      "potentialText": "高潜力",
-      "margin": 90,
-      "demand": 75,
-      "competition": "low",
-      "score": 8.5,
+      "id": "prod-20260411-014",
+      "name": "团扇",
+      "description": "古风团扇",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 75,
+      "demand": 70,
+      "competition": "medium",
+      "score": 7.4,
       "platform": "Etsy",
       "price": {
-        "cost": 4.00,
-        "sell": 58.00,
-        "currency": "GBP"
+        "cost": 1.2,
+        "sell": 25.0,
+        "currency": "USD"
       },
       "supplier": {
-        "name": "河北蔚县剪纸",
+        "name": "杭州团扇",
+        "moq": 100,
+        "leadTime": "7-10天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%9B%A2%E6%89%87",
+        "etsy": "https://www.etsy.com/search?q=chinese+round+fan",
+        "search": {
+          "1688_keyword": "团扇",
+          "etsy_keyword": "chinese round fan"
+        }
+      },
+      "tags": [
+        "古风",
+        "装饰"
+      ],
+      "notes": "84倍溢价"
+    },
+    {
+      "id": "prod-20260411-015",
+      "name": "磁吸书签",
+      "description": "文创磁吸书签",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 72,
+      "demand": 76,
+      "competition": "medium",
+      "score": 7.6,
+      "platform": "Amazon",
+      "price": {
+        "cost": 0.7,
+        "sell": 18.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌文创",
+        "moq": 200,
+        "leadTime": "3-5天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%A3%81%E5%90%B8%E4%B9%A6%E7%AD%BE",
+        "etsy": "https://www.etsy.com/search?q=magnetic+bookmark",
+        "search": {
+          "1688_keyword": "磁吸书签",
+          "etsy_keyword": "magnetic bookmark"
+        }
+      },
+      "tags": [
+        "文创",
+        "礼品"
+      ],
+      "notes": "60倍溢价"
+    },
+    {
+      "id": "prod-20260411-016",
+      "name": "景泰蓝",
+      "description": "景泰蓝小摆件",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 68,
+      "demand": 65,
+      "competition": "low",
+      "score": 7.2,
+      "platform": "Etsy",
+      "price": {
+        "cost": 4.5,
+        "sell": 120.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "北京景泰蓝",
+        "moq": 20,
+        "leadTime": "15-20天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%99%AF%E6%B3%B0%E8%93%9D",
+        "etsy": "https://www.etsy.com/search?q=cloisonne+enamel",
+        "search": {
+          "1688_keyword": "景泰蓝工艺品",
+          "etsy_keyword": "cloisonne enamel"
+        }
+      },
+      "tags": [
+        "非遗",
+        "工艺"
+      ],
+      "notes": "54倍溢价"
+    },
+    {
+      "id": "prod-20260411-017",
+      "name": "刺绣香囊",
+      "description": "传统香囊",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 74,
+      "demand": 72,
+      "competition": "low",
+      "score": 7.6,
+      "platform": "Etsy",
+      "price": {
+        "cost": 1.4,
+        "sell": 30.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "苏州刺绣",
+        "moq": 100,
+        "leadTime": "10-14天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%A6%99%E5%9B%8A",
+        "etsy": "https://www.etsy.com/search?q=chinese+sachet",
+        "search": {
+          "1688_keyword": "刺绣香囊",
+          "etsy_keyword": "embroidered sachet"
+        }
+      },
+      "tags": [
+        "香薰",
+        "中医"
+      ],
+      "notes": "57倍溢价"
+    },
+    {
+      "id": "prod-20260411-018",
+      "name": "陶瓷茶具",
+      "description": "陶瓷茶具套装",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 71,
+      "demand": 78,
+      "competition": "medium",
+      "score": 7.5,
+      "platform": "Amazon",
+      "price": {
+        "cost": 3.5,
+        "sell": 75.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "德化陶瓷",
+        "moq": 50,
+        "leadTime": "10-15天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%99%B6%E7%93%B7%E8%8C%B6%E5%85%B7",
+        "etsy": "https://www.etsy.com/search?q=chinese+tea+set",
+        "search": {
+          "1688_keyword": "陶瓷茶具",
+          "etsy_keyword": "ceramic tea set"
+        }
+      },
+      "tags": [
+        "茶具",
+        "手工"
+      ],
+      "notes": "48倍溢价"
+    },
+    {
+      "id": "prod-20260411-019",
+      "name": "玉石挂件",
+      "description": "玉石小挂件",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 73,
+      "demand": 70,
+      "competition": "medium",
+      "score": 7.4,
+      "platform": "Etsy",
+      "price": {
+        "cost": 2.8,
+        "sell": 55.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "玉石产地",
         "moq": 50,
         "leadTime": "7-10天"
       },
-      "tags": ["文化艺术", "手工", "超高溢价"],
-      "notes": "Etsy定价10-350美元，精美手工剪纸可达58英镑（530元）"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%8E%89%E7%9F%B3%E6%8C%82%E4%BB%B6",
+        "etsy": "https://www.etsy.com/search?q=jade+pendant",
+        "search": {
+          "1688_keyword": "玉石挂件",
+          "etsy_keyword": "jade pendant"
+        }
+      },
+      "tags": [
+        "玉石",
+        "护身符"
+      ],
+      "notes": "57倍溢价"
     },
     {
-      "id": "prod-20260411-006",
+      "id": "prod-20260411-020",
+      "name": "拼豆套装",
+      "description": "拼豆玩具",
+      "category": "home",
+      "potential": "low",
+      "potentialText": "低潜力",
+      "margin": 55,
+      "demand": 68,
+      "competition": "high",
+      "score": 6.5,
+      "platform": "Amazon",
+      "price": {
+        "cost": 5.5,
+        "sell": 25.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌拼豆",
+        "moq": 100,
+        "leadTime": "5-7天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%8B%BC%E8%B1%86",
+        "etsy": "https://www.etsy.com/search?q=perler+beads",
+        "search": {
+          "1688_keyword": "拼豆玩具",
+          "etsy_keyword": "perler beads set"
+        }
+      },
+      "tags": [
+        "走量",
+        "DIY"
+      ],
+      "notes": "10倍溢价"
+    },
+    {
+      "id": "prod-20260411-021",
+      "name": "伴飞小鸟",
+      "description": "伴飞玩具",
+      "category": "home",
+      "potential": "low",
+      "potentialText": "低潜力",
+      "margin": 50,
+      "demand": 75,
+      "competition": "high",
+      "score": 6.8,
+      "platform": "Amazon",
+      "price": {
+        "cost": 1.4,
+        "sell": 6.5,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌玩具",
+        "moq": 500,
+        "leadTime": "3-5天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E4%BC%B4%E9%A3%9E%E5%B0%8F%E9%B8%9F",
+        "etsy": "https://www.etsy.com/search?q=flying+bird+toy",
+        "search": {
+          "1688_keyword": "伴飞小鸟",
+          "etsy_keyword": "flying bird toy"
+        }
+      },
+      "tags": [
+        "玩具",
+        "爆单"
+      ],
+      "notes": "6倍溢价"
+    },
+    {
+      "id": "prod-20260411-022",
       "name": "藤编收纳篮",
-      "description": "广西藤编篮，环保替代塑料概念，亚马逊爆款数百万件",
+      "description": "藤编篮",
       "category": "home",
       "potential": "medium",
       "potentialText": "中潜力",
@@ -140,23 +772,322 @@
       "score": 8.2,
       "platform": "Amazon",
       "price": {
-        "cost": 14.00,
-        "sell": 55.00,
+        "cost": 2.5,
+        "sell": 55.0,
         "currency": "USD"
       },
       "supplier": {
-        "name": "广西藤编工厂",
+        "name": "广西藤编",
         "moq": 100,
         "leadTime": "7-10天"
       },
-      "tags": ["环保", "热销", "走量"],
-      "notes": "成本8-20元，主打环保替代塑料，Dior等奢侈品牌也采购"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%97%A4%E7%BC%96",
+        "etsy": "https://www.etsy.com/search?q=rattan+basket",
+        "search": {
+          "1688_keyword": "藤编收纳篮",
+          "etsy_keyword": "rattan basket"
+        }
+      },
+      "tags": [
+        "环保",
+        "热销"
+      ],
+      "notes": "72倍溢价"
+    },
+    {
+      "id": "prod-20260411-023",
+      "name": "紫砂花瓶",
+      "description": "紫砂小花瓶",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 70,
+      "demand": 72,
+      "competition": "medium",
+      "score": 7.4,
+      "platform": "Etsy",
+      "price": {
+        "cost": 2.5,
+        "sell": 60.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "宜兴紫砂",
+        "moq": 50,
+        "leadTime": "10-14天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%B4%AB%E7%A0%82%E8%8A%B1%E7%93%B6",
+        "etsy": "https://www.etsy.com/search?q=yixing+vase",
+        "search": {
+          "1688_keyword": "紫砂花瓶",
+          "etsy_keyword": "yixing vase"
+        }
+      },
+      "tags": [
+        "禅意",
+        "摆件"
+      ],
+      "notes": "48倍溢价"
+    },
+    {
+      "id": "prod-20260411-024",
+      "name": "木雕摆件",
+      "description": "木雕小摆件",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 72,
+      "demand": 68,
+      "competition": "low",
+      "score": 7.5,
+      "platform": "Etsy",
+      "price": {
+        "cost": 4.5,
+        "sell": 100.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "东阳木雕",
+        "moq": 30,
+        "leadTime": "15-20天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%9C%A8%E9%9B%95",
+        "etsy": "https://www.etsy.com/search?q=wood+carving",
+        "search": {
+          "1688_keyword": "木雕摆件",
+          "etsy_keyword": "chinese wood carving"
+        }
+      },
+      "tags": [
+        "手工",
+        "艺术"
+      ],
+      "notes": "72倍溢价"
+    },
+    {
+      "id": "prod-20260411-025",
+      "name": "国潮挂饰",
+      "description": "生肖挂饰",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 73,
+      "demand": 78,
+      "competition": "medium",
+      "score": 7.7,
+      "platform": "TikTok Shop",
+      "price": {
+        "cost": 1.4,
+        "sell": 35.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "宁波文创",
+        "moq": 100,
+        "leadTime": "5-7天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%9B%BD%E6%BD%AE%E6%8C%82%E9%A5%B0",
+        "etsy": "https://www.etsy.com/search?q=chinese+zodiac",
+        "search": {
+          "1688_keyword": "生肖挂饰",
+          "etsy_keyword": "zodiac ornament"
+        }
+      },
+      "tags": [
+        "国潮",
+        "文创"
+      ],
+      "notes": "72倍溢价"
+    },
+    {
+      "id": "prod-20260411-026",
+      "name": "真丝丝巾",
+      "description": "刺绣丝巾",
+      "category": "fashion",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 74,
+      "demand": 65,
+      "competition": "low",
+      "score": 7.6,
+      "platform": "Etsy",
+      "price": {
+        "cost": 4.5,
+        "sell": 100.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "苏州丝绸",
+        "moq": 30,
+        "leadTime": "15-20天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%9C%9F%E4%B8%9D%E4%B8%9D%E5%B7%BE",
+        "etsy": "https://www.etsy.com/search?q=silk+scarf",
+        "search": {
+          "1688_keyword": "真丝丝巾",
+          "etsy_keyword": "silk scarf embroidered"
+        }
+      },
+      "tags": [
+        "真丝",
+        "刺绣"
+      ],
+      "notes": "72倍溢价"
+    },
+    {
+      "id": "prod-20260411-027",
+      "name": "陶瓷香炉",
+      "description": "小型香炉",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 70,
+      "demand": 73,
+      "competition": "medium",
+      "score": 7.4,
+      "platform": "Amazon",
+      "price": {
+        "cost": 1.8,
+        "sell": 50.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "景德镇",
+        "moq": 50,
+        "leadTime": "10-15天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E9%99%B6%E7%93%B7%E9%A6%99%E7%82%89",
+        "etsy": "https://www.etsy.com/search?q=incense+burner",
+        "search": {
+          "1688_keyword": "陶瓷香炉",
+          "etsy_keyword": "ceramic incense burner"
+        }
+      },
+      "tags": [
+        "香薰",
+        "冥想"
+      ],
+      "notes": "63倍溢价"
+    },
+    {
+      "id": "prod-20260411-028",
+      "name": "竹杯垫",
+      "description": "竹制杯垫",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 76,
+      "demand": 80,
+      "competition": "low",
+      "score": 7.8,
+      "platform": "Amazon",
+      "price": {
+        "cost": 0.8,
+        "sell": 15.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "竹制品",
+        "moq": 200,
+        "leadTime": "5-7天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E7%AB%B9%E5%88%B6%E6%9D%AF%E5%9E%AB",
+        "etsy": "https://www.etsy.com/search?q=bamboo+coasters",
+        "search": {
+          "1688_keyword": "竹杯垫",
+          "etsy_keyword": "bamboo coasters"
+        }
+      },
+      "tags": [
+        "环保",
+        "家居"
+      ],
+      "notes": "72倍溢价"
+    },
+    {
+      "id": "prod-20260411-029",
+      "name": "变色茶宠",
+      "description": "变色喷水茶宠",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 72,
+      "demand": 75,
+      "competition": "medium",
+      "score": 7.6,
+      "platform": "Amazon",
+      "price": {
+        "cost": 2.0,
+        "sell": 42.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "陶瓷产地",
+        "moq": 50,
+        "leadTime": "10-14天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%8C%B6%E5%AE%A0",
+        "etsy": "https://www.etsy.com/search?q=tea+pet",
+        "search": {
+          "1688_keyword": "变色茶宠",
+          "etsy_keyword": "color changing tea pet"
+        }
+      },
+      "tags": [
+        "趣味",
+        "互动"
+      ],
+      "notes": "61倍溢价"
+    },
+    {
+      "id": "prod-20260411-030",
+      "name": "宋锦葫芦",
+      "description": "宋锦挂件",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 72,
+      "demand": 60,
+      "competition": "low",
+      "score": 7.5,
+      "platform": "Etsy",
+      "price": {
+        "cost": 5.0,
+        "sell": 150.0,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "苏州宋锦",
+        "moq": 20,
+        "leadTime": "20-25天"
+      },
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E5%AE%8B%E9%94%A6",
+        "etsy": "https://www.etsy.com/search?q=song+brocade",
+        "search": {
+          "1688_keyword": "宋锦葫芦",
+          "etsy_keyword": "song brocade gourd"
+        }
+      },
+      "tags": [
+        "非遗",
+        "奢华"
+      ],
+      "notes": "57倍溢价"
     }
   ],
   "summary": {
-    "totalProducts": 6,
-    "highPotential": 5,
-    "avgMargin": 85.3,
+    "totalProducts": 30,
+    "highPotential": 8,
+    "avgMargin": 75.0,
     "topCategory": "home"
   }
 }

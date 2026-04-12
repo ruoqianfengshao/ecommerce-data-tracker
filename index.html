@@ -72,9 +72,13 @@
             background-color: #dbeafe;
             color: #1e40af;
         }
+        
+        .loading {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
     </style>
 </head>
-<body class="bg-gray-50" x-data="dashboard()">
+<body class="bg-gray-50" x-data="dashboard()" x-init="init()">
     <!-- Header -->
     <header class="gradient-bg text-white shadow-lg">
         <div class="container mx-auto px-4 py-6">
@@ -86,13 +90,28 @@
                 <div class="text-right">
                     <div class="text-sm text-purple-100">最后更新</div>
                     <div class="text-lg font-semibold" x-text="lastUpdated"></div>
+                    <div class="text-sm text-purple-100 mt-1">
+                        <select x-model="selectedDate" @change="loadData()" 
+                                class="px-3 py-1 rounded text-gray-900 text-sm">
+                            <template x-for="date in availableDates" :key="date">
+                                <option :value="date" x-text="formatDate(date)"></option>
+                            </template>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- Loading State -->
+    <div x-show="loading" class="container mx-auto px-4 py-8">
+        <div class="text-center">
+            <div class="loading text-purple-600 text-lg">加载数据中...</div>
+        </div>
+    </div>
+
     <!-- Stats Overview -->
-    <section class="container mx-auto px-4 py-8">
+    <section class="container mx-auto px-4 py-8" x-show="!loading">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div class="stat-card card p-6">
                 <div class="flex items-center justify-between">
@@ -107,8 +126,8 @@
                     </div>
                 </div>
                 <div class="mt-4 text-sm">
-                    <span class="trend-up font-semibold">+12%</span>
-                    <span class="text-gray-600 ml-2">较上周</span>
+                    <span class="trend-up font-semibold">历史数据</span>
+                    <span class="text-gray-600 ml-2">可查询</span>
                 </div>
             </div>
 
@@ -125,8 +144,8 @@
                     </div>
                 </div>
                 <div class="mt-4 text-sm">
-                    <span class="trend-up font-semibold">+8 个</span>
-                    <span class="text-gray-600 ml-2">本周新增</span>
+                    <span class="trend-up font-semibold" x-text="`${Math.round(stats.highPotential/stats.totalProducts*100)}%`"></span>
+                    <span class="text-gray-600 ml-2">占比</span>
                 </div>
             </div>
 
@@ -143,16 +162,16 @@
                     </div>
                 </div>
                 <div class="mt-4 text-sm">
-                    <span class="trend-up font-semibold">+2.3%</span>
-                    <span class="text-gray-600 ml-2">较上月</span>
+                    <span class="trend-up font-semibold">超高溢价</span>
+                    <span class="text-gray-600 ml-2">工艺品类</span>
                 </div>
             </div>
 
             <div class="stat-card card p-6">
                 <div class="flex items-center justify-between">
                     <div>
-                        <p class="text-sm font-medium text-gray-600">市场趋势</p>
-                        <p class="text-3xl font-bold text-gray-900 mt-2">稳定</p>
+                        <p class="text-sm font-medium text-gray-600">主流品类</p>
+                        <p class="text-3xl font-bold text-gray-900 mt-2" x-text="stats.topCategory"></p>
                     </div>
                     <div class="w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center">
                         <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -169,13 +188,13 @@
     </section>
 
     <!-- Main Content -->
-    <section class="container mx-auto px-4 py-8">
+    <section class="container mx-auto px-4 py-8" x-show="!loading">
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
             <!-- Products List -->
             <div class="lg:col-span-2">
                 <div class="card p-6">
                     <div class="flex items-center justify-between mb-6">
-                        <h2 class="text-2xl font-bold text-gray-900">今日推荐选品</h2>
+                        <h2 class="text-2xl font-bold text-gray-900" x-text="`${formatDate(selectedDate)} 推荐选品`"></h2>
                         <select class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
                                 x-model="selectedCategory">
                             <option value="all">全部分类</option>
@@ -186,7 +205,7 @@
                         </select>
                     </div>
 
-                    <div class="space-y-4">
+                    <div class="space-y-4" x-show="filteredProducts.length > 0">
                         <template x-for="product in filteredProducts" :key="product.id">
                             <div class="border border-gray-200 rounded-lg p-4 hover:border-purple-500 transition-colors">
                                 <div class="flex items-start justify-between">
@@ -222,20 +241,35 @@
                                                 <p class="text-lg font-semibold text-purple-600" x-text="product.score + '/10'"></p>
                                             </div>
                                         </div>
+                                        
+                                        <div class="mt-3 flex flex-wrap gap-2">
+                                            <template x-for="tag in product.tags" :key="tag">
+                                                <span class="px-2 py-1 bg-gray-100 text-gray-700 rounded text-xs" x-text="tag"></span>
+                                            </template>
+                                        </div>
                                     </div>
                                 </div>
                                 
                                 <div class="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
                                     <div class="flex items-center gap-4 text-sm text-gray-600">
                                         <span>🌐 <span x-text="product.platform"></span></span>
-                                        <span>📅 <span x-text="product.date"></span></span>
+                                        <span>💰 成本: $<span x-text="product.price.cost"></span> → 售价: $<span x-text="product.price.sell"></span></span>
                                     </div>
-                                    <button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">
+                                    <button class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm">
                                         查看详情
                                     </button>
                                 </div>
+                                
+                                <div class="mt-3 text-xs text-gray-500 bg-blue-50 p-3 rounded" x-show="product.notes">
+                                    <span class="font-semibold">💡 分析：</span>
+                                    <span x-text="product.notes"></span>
+                                </div>
                             </div>
                         </template>
+                    </div>
+                    
+                    <div x-show="filteredProducts.length === 0" class="text-center py-12 text-gray-500">
+                        暂无符合条件的选品数据
                     </div>
                 </div>
             </div>
@@ -253,28 +287,40 @@
                     <h3 class="text-lg font-bold text-gray-900 mb-4">快速统计</h3>
                     <div class="space-y-3">
                         <div class="flex items-center justify-between">
-                            <span class="text-gray-600">本周新增</span>
-                            <span class="font-semibold text-blue-600">23 个</span>
+                            <span class="text-gray-600">当日选品</span>
+                            <span class="font-semibold text-blue-600" x-text="products.length + ' 个'"></span>
                         </div>
                         <div class="flex items-center justify-between">
-                            <span class="text-gray-600">待验证</span>
-                            <span class="font-semibold text-yellow-600">12 个</span>
+                            <span class="text-gray-600">高潜力</span>
+                            <span class="font-semibold text-green-600" x-text="products.filter(p => p.potential === 'high').length + ' 个'"></span>
                         </div>
                         <div class="flex items-center justify-between">
-                            <span class="text-gray-600">已上架</span>
-                            <span class="font-semibold text-green-600">156 个</span>
+                            <span class="text-gray-600">中潜力</span>
+                            <span class="font-semibold text-yellow-600" x-text="products.filter(p => p.potential === 'medium').length + ' 个'"></span>
                         </div>
                         <div class="flex items-center justify-between">
-                            <span class="text-gray-600">总收藏</span>
-                            <span class="font-semibold text-purple-600">89 个</span>
+                            <span class="text-gray-600">平均评分</span>
+                            <span class="font-semibold text-purple-600" x-text="(products.reduce((sum, p) => sum + p.score, 0) / products.length || 0).toFixed(1) + '/10'"></span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Trend Chart -->
+                <!-- Platform Distribution -->
                 <div class="card p-6">
-                    <h3 class="text-lg font-bold text-gray-900 mb-4">本周趋势</h3>
-                    <canvas id="trendChart"></canvas>
+                    <h3 class="text-lg font-bold text-gray-900 mb-4">平台分布</h3>
+                    <div class="space-y-2">
+                        <template x-for="platform in platformStats" :key="platform.name">
+                            <div>
+                                <div class="flex items-center justify-between text-sm mb-1">
+                                    <span class="text-gray-600" x-text="platform.name"></span>
+                                    <span class="font-semibold" x-text="platform.count + ' 个'"></span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-purple-600 h-2 rounded-full" :style="`width: ${platform.percentage}%`"></div>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
                 </div>
             </div>
         </div>
@@ -284,101 +330,126 @@
     <footer class="bg-gray-900 text-white py-8 mt-12">
         <div class="container mx-auto px-4 text-center">
             <p class="text-gray-400">跨境电商选品数据分析平台 © 2026</p>
-            <p class="text-sm text-gray-500 mt-2">Powered by GitHub Pages</p>
+            <p class="text-sm text-gray-500 mt-2">
+                Powered by GitHub Pages | 
+                <a href="https://github.com/ruoqianfengshao/ecommerce-data-tracker" target="_blank" class="hover:text-purple-400">GitHub</a>
+            </p>
         </div>
     </footer>
 
     <script>
         function dashboard() {
             return {
-                lastUpdated: new Date().toLocaleString('zh-CN'),
+                loading: true,
+                lastUpdated: '',
+                selectedDate: '2026-04-12',
+                availableDates: ['2026-04-12', '2026-04-11'],
                 selectedCategory: 'all',
+                products: [],
                 stats: {
-                    totalProducts: 156,
-                    highPotential: 34,
-                    avgMargin: 32.5,
+                    totalProducts: 0,
+                    highPotential: 0,
+                    avgMargin: 0,
+                    topCategory: ''
                 },
-                products: [
-                    {
-                        id: 1,
-                        name: '智能手表表带',
-                        description: '适配Apple Watch的多彩硅胶表带，多种颜色可选',
-                        category: 'electronics',
-                        potential: 'high',
-                        potentialText: '高潜力',
-                        margin: 45,
-                        demand: 85,
-                        competition: '中',
-                        score: 8.5,
-                        platform: 'Amazon',
-                        date: '2026-04-12'
-                    },
-                    {
-                        id: 2,
-                        name: '便携式LED化妆镜',
-                        description: '可折叠三面镜，内置充电电池，三档亮度调节',
-                        category: 'home',
-                        potential: 'high',
-                        potentialText: '高潜力',
-                        margin: 52,
-                        demand: 78,
-                        competition: '低',
-                        score: 9.0,
-                        platform: 'eBay',
-                        date: '2026-04-12'
-                    },
-                    {
-                        id: 3,
-                        name: '车载手机支架',
-                        description: '磁吸式360度旋转，适配所有车型和手机',
-                        category: 'electronics',
-                        potential: 'medium',
-                        potentialText: '中潜力',
-                        margin: 38,
-                        demand: 72,
-                        competition: '高',
-                        score: 7.2,
-                        platform: 'AliExpress',
-                        date: '2026-04-11'
-                    },
-                    {
-                        id: 4,
-                        name: '运动水壶套装',
-                        description: '不锈钢保温壶+硅胶套，24小时保温保冷',
-                        category: 'sports',
-                        potential: 'medium',
-                        potentialText: '中潜力',
-                        margin: 42,
-                        demand: 68,
-                        competition: '中',
-                        score: 7.8,
-                        platform: 'Amazon',
-                        date: '2026-04-11'
-                    }
-                ],
+                categoryChart: null,
+                
                 get filteredProducts() {
                     if (this.selectedCategory === 'all') {
                         return this.products;
                     }
                     return this.products.filter(p => p.category === this.selectedCategory);
                 },
-                init() {
-                    this.initCharts();
+                
+                get platformStats() {
+                    const counts = {};
+                    this.products.forEach(p => {
+                        counts[p.platform] = (counts[p.platform] || 0) + 1;
+                    });
+                    
+                    return Object.entries(counts)
+                        .map(([name, count]) => ({
+                            name,
+                            count,
+                            percentage: Math.round((count / this.products.length) * 100)
+                        }))
+                        .sort((a, b) => b.count - a.count);
                 },
-                initCharts() {
-                    // Category Distribution Chart
-                    const categoryCtx = document.getElementById('categoryChart');
-                    new Chart(categoryCtx, {
+                
+                formatDate(dateStr) {
+                    const date = new Date(dateStr);
+                    const month = date.getMonth() + 1;
+                    const day = date.getDate();
+                    return `${month}月${day}日`;
+                },
+                
+                async loadData() {
+                    this.loading = true;
+                    try {
+                        const response = await fetch(`./data/products/${this.selectedDate}.json`);
+                        if (!response.ok) throw new Error('数据加载失败');
+                        
+                        const data = await response.json();
+                        this.products = data.products || [];
+                        
+                        // Update stats
+                        if (data.summary) {
+                            this.stats.totalProducts = data.summary.totalProducts;
+                            this.stats.highPotential = data.summary.highPotential;
+                            this.stats.avgMargin = data.summary.avgMargin;
+                            this.stats.topCategory = this.getCategoryName(data.summary.topCategory);
+                        }
+                        
+                        this.lastUpdated = new Date(data.date).toLocaleDateString('zh-CN', {
+                            year: 'numeric',
+                            month: 'long',
+                            day: 'numeric'
+                        });
+                        
+                        // Update chart
+                        this.updateCategoryChart();
+                    } catch (error) {
+                        console.error('Error loading data:', error);
+                        this.products = [];
+                    } finally {
+                        this.loading = false;
+                    }
+                },
+                
+                getCategoryName(category) {
+                    const names = {
+                        'electronics': '电子产品',
+                        'home': '家居生活',
+                        'fashion': '时尚配饰',
+                        'sports': '运动户外'
+                    };
+                    return names[category] || category;
+                },
+                
+                updateCategoryChart() {
+                    if (this.categoryChart) {
+                        this.categoryChart.destroy();
+                    }
+                    
+                    const categoryCounts = {};
+                    this.products.forEach(p => {
+                        const name = this.getCategoryName(p.category);
+                        categoryCounts[name] = (categoryCounts[name] || 0) + 1;
+                    });
+                    
+                    const ctx = document.getElementById('categoryChart');
+                    this.categoryChart = new Chart(ctx, {
                         type: 'doughnut',
                         data: {
-                            labels: ['电子产品', '家居生活', '时尚配饰', '运动户外'],
+                            labels: Object.keys(categoryCounts),
                             datasets: [{
-                                data: [35, 28, 22, 15],
+                                data: Object.values(categoryCounts),
                                 backgroundColor: [
                                     '#667eea',
                                     '#764ba2',
                                     '#f093fb',
-                                    '#4facfe'
+                                    '#4facfe',
+                                    '#43e97b'
                                 ]
                             }]
                         },
@@ -391,35 +462,10 @@
                             }
                         }
                     });
-
-                    // Trend Chart
-                    const trendCtx = document.getElementById('trendChart');
-                    new Chart(trendCtx, {
-                        type: 'line',
-                        data: {
-                            labels: ['周一', '周二', '周三', '周四', '周五', '周六', '周日'],
-                            datasets: [{
-                                label: '新增选品',
-                                data: [5, 8, 12, 7, 15, 10, 18],
-                                borderColor: '#667eea',
-                                backgroundColor: 'rgba(102, 126, 234, 0.1)',
-                                tension: 0.4
-                            }]
-                        },
-                        options: {
-                            responsive: true,
-                            plugins: {
-                                legend: {
-                                    display: false
-                                }
-                            },
-                            scales: {
-                                y: {
-                                    beginAtZero: true
-                                }
-                            }
-                        }
-                    });
+                },
+                
+                async init() {
+                    await this.loadData();
                 }
             }
         }

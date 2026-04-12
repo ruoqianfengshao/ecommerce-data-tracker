@@ -1,0 +1,52 @@
+name: Daily Product Recommendations
+
+on:
+  schedule:
+    # 每天北京时间早上 9:00 执行（UTC 01:00）
+    - cron: '0 1 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  generate-products:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      
+      - name: Generate daily product recommendations
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          echo "Generating products for $TODAY"
+          
+          # 创建数据文件（这里是占位脚本，实际数据由 OpenClaw Agent 生成）
+          cat > data/products/$TODAY.json << 'EOF'
+          {
+            "date": "'$TODAY'",
+            "updatedBy": "github-actions",
+            "products": [],
+            "summary": {
+              "totalProducts": 0,
+              "highPotential": 0,
+              "avgMargin": 0,
+              "topCategory": "pending"
+            },
+            "note": "Waiting for OpenClaw Agent to generate data"
+          }
+          EOF
+          
+      - name: Commit and push
+        run: |
+          git config user.name "openclaw-bot"
+          git config user.email "openclaw-bot@users.noreply.github.com"
+          git add data/products/*.json
+          git diff --staged --quiet || git commit -m "chore: placeholder for $(date +%Y-%m-%d) products"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

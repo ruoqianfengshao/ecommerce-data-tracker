@@ -8,22 +8,35 @@
       "description": "适配Apple Watch的多彩硅胶表带，多种颜色可选，柔软舒适，防汗防水",
       "category": "electronics",
       "potential": "high",
+      "potentialText": "高潜力",
       "margin": 45,
       "demand": 85,
       "competition": "medium",
       "score": 8.5,
       "platform": "Amazon",
       "price": {
-        "cost": 3.50,
+        "cost": 3.5,
         "sell": 12.99,
         "currency": "USD"
       },
       "supplier": {
-        "name": "深圳XX电子",
+        "name": "深圳电子配件厂",
         "moq": 100,
         "leadTime": "7-10天"
       },
-      "tags": ["热销", "高利润", "快速发货"],
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E6%89%8B%E8%A1%A8%E8%A1%A8%E5%B8%A6",
+        "etsy": "https://www.etsy.com/search?q=apple+watch+band",
+        "search": {
+          "1688_keyword": "硅胶表带 Apple Watch",
+          "etsy_keyword": "apple watch silicone band"
+        }
+      },
+      "tags": [
+        "热销",
+        "高利润",
+        "快速发货"
+      ],
       "notes": "Apple Watch表带市场需求稳定，复购率高，建议备货多种颜色"
     },
     {
@@ -32,71 +45,110 @@
       "description": "可折叠三面镜，内置充电电池，三档亮度调节，适合旅行和日常使用",
       "category": "home",
       "potential": "high",
+      "potentialText": "高潜力",
       "margin": 52,
       "demand": 78,
       "competition": "low",
       "score": 9.0,
       "platform": "eBay",
       "price": {
-        "cost": 8.00,
+        "cost": 8.0,
         "sell": 24.99,
         "currency": "USD"
       },
       "supplier": {
-        "name": "广州XX家居",
+        "name": "广州家居用品",
         "moq": 50,
         "leadTime": "5-7天"
       },
-      "tags": ["新品", "高利润", "低竞争"],
-      "notes": "化妆镜市场竞争相对较小，利润空间大，适合作为主推产品"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=LED%E5%8C%96%E5%A6%86%E9%95%9C",
+        "etsy": "https://www.etsy.com/search?q=led+makeup+mirror",
+        "search": {
+          "1688_keyword": "LED化妆镜 便携",
+          "etsy_keyword": "portable led makeup mirror"
+        }
+      },
+      "tags": [
+        "女性市场",
+        "礼品",
+        "高复购"
+      ],
+      "notes": "美容类产品，女性用户粘性高，适合节日促销和礼品市场"
     },
     {
       "id": "prod-20260412-003",
-      "name": "车载手机支架",
-      "description": "磁吸式360度旋转，适配所有车型和手机，安装简单，稳固不掉落",
+      "name": "磁吸车载手机支架",
+      "description": "强磁吸附，360度旋转，适配所有手机，安装简单，牢固稳定",
       "category": "electronics",
       "potential": "medium",
+      "potentialText": "中潜力",
       "margin": 38,
-      "demand": 72,
+      "demand": 82,
       "competition": "high",
-      "score": 7.2,
-      "platform": "AliExpress",
+      "score": 7.8,
+      "platform": "Amazon",
       "price": {
-        "cost": 2.80,
-        "sell": 9.99,
+        "cost": 4.2,
+        "sell": 15.99,
         "currency": "USD"
       },
       "supplier": {
         "name": "东莞XX科技",
         "moq": 200,
-        "leadTime": "10-15天"
+        "leadTime": "7-10天"
       },
-      "tags": ["刚需", "薄利多销"],
-      "notes": "市场竞争激烈，需要通过营销和差异化来突围，可考虑打造品牌"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BD%A6%E8%BD%BD%E6%94%AF%E6%9E%B6",
+        "etsy": "https://www.etsy.com/search?q=magnetic+car+phone+holder",
+        "search": {
+          "1688_keyword": "磁吸车载支架",
+          "etsy_keyword": "magnetic car mount"
+        }
+      },
+      "tags": [
+        "刚需",
+        "竞争激烈",
+        "走量"
+      ],
+      "notes": "市场竞争激烈，需要通过优质服务和快速物流取胜"
     },
     {
       "id": "prod-20260412-004",
-      "name": "运动水壶套装",
-      "description": "不锈钢保温壶+硅胶套，24小时保温保冷，防漏设计，适合运动健身",
+      "name": "运动水壶（带时间刻度）",
+      "description": "1L大容量，Tritan材质，带时间刻度提醒喝水，防漏设计，多色可选",
       "category": "sports",
       "potential": "medium",
+      "potentialText": "中潜力",
       "margin": 42,
-      "demand": 68,
+      "demand": 75,
       "competition": "medium",
-      "score": 7.8,
-      "platform": "Amazon",
+      "score": 8.2,
+      "platform": "TikTok Shop",
       "price": {
-        "cost": 6.50,
+        "cost": 5.5,
         "sell": 18.99,
         "currency": "USD"
       },
       "supplier": {
-        "name": "浙江XX不锈钢",
+        "name": "义乌XX塑料",
         "moq": 100,
-        "leadTime": "7-10天"
+        "leadTime": "5-7天"
       },
-      "tags": ["季节性", "健身热"],
-      "notes": "春夏季需求旺盛，建议提前备货，可搭配运动周边产品销售"
+      "links": {
+        "1688": "https://s.1688.com/selloffer/offer_search.htm?keywords=%E8%BF%90%E5%8A%A8%E6%B0%B4%E5%A3%B6",
+        "etsy": "https://www.etsy.com/search?q=motivational+water+bottle",
+        "search": {
+          "1688_keyword": "运动水壶 时间刻度",
+          "etsy_keyword": "time marker water bottle"
+        }
+      },
+      "tags": [
+        "健身",
+        "TikTok爆款",
+        "健康生活"
+      ],
+      "notes": "健康生活趋势产品，TikTok带货效果好，建议配合健身博主营销"
     }
   ],
   "summary": {

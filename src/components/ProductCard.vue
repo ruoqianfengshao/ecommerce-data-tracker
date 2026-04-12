@@ -70,8 +70,9 @@
           💰 成本: ${{ product.price.cost }} → 售价: ${{ product.price.sell }}
         </span>
       </div>
-      <div class="flex gap-2">
+      <div v-if="product.links" class="flex gap-2">
         <a 
+          v-if="product.links['1688']"
           :href="product.links['1688']" 
           target="_blank"
           class="px-3 py-1 bg-orange-500 text-white rounded text-xs hover:bg-orange-600 transition-colors"
@@ -79,6 +80,7 @@
           1688 货源
         </a>
         <a 
+          v-if="product.links.etsy"
           :href="product.links.etsy" 
           target="_blank"
           class="px-3 py-1 bg-purple-600 text-white rounded text-xs hover:bg-purple-700 transition-colors"

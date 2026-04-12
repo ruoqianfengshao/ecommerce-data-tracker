@@ -1,0 +1,162 @@
+{
+  "date": "2026-04-11",
+  "updatedBy": "openclaw-bot",
+  "products": [
+    {
+      "id": "prod-20260411-001",
+      "name": "天然葫芦工艺品",
+      "description": "天然葫芦经彩绘设计，主打手工环保概念。Etsy搜索calabash gourd热销",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 88,
+      "demand": 92,
+      "competition": "low",
+      "score": 9.2,
+      "platform": "Etsy",
+      "price": {
+        "cost": 6.50,
+        "sell": 83.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "国内葫芦工艺产地",
+        "moq": 50,
+        "leadTime": "7-10天"
+      },
+      "tags": ["超高溢价", "手工艺", "环保"],
+      "notes": "溢价高达120倍，利用手工、环保概念在美国市场月销数百单"
+    },
+    {
+      "id": "prod-20260411-002",
+      "name": "竹编米勺（非遗）",
+      "description": "贵州非遗竹编米勺，环保竹制+手工标签，Etsy累计11.5万单",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 86,
+      "demand": 89,
+      "competition": "low",
+      "score": 9.0,
+      "platform": "Etsy",
+      "price": {
+        "cost": 6.50,
+        "sell": 22.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "贵州非遗竹编工坊",
+        "moq": 100,
+        "leadTime": "10-14天"
+      },
+      "tags": ["非遗", "环保", "热销"],
+      "notes": "Etsy总销售额超1805万元，环保竹制+非遗标签成功打入欧美"
+    },
+    {
+      "id": "prod-20260411-003",
+      "name": "水晶能量手串",
+      "description": "天然水晶手串，配合能量疗愈、招桃花等玄学营销概念",
+      "category": "fashion",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 82,
+      "demand": 85,
+      "competition": "medium",
+      "score": 8.7,
+      "platform": "Etsy",
+      "price": {
+        "cost": 25.00,
+        "sell": 150.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "江苏东海水晶之都",
+        "moq": 50,
+        "leadTime": "5-7天"
+      },
+      "tags": ["玄学", "高溢价", "情绪价值"],
+      "notes": "江苏东海出厂成本15元，配合玄学营销可卖到199美元"
+    },
+    {
+      "id": "prod-20260411-004",
+      "name": "干花书签",
+      "description": "天然压花书签，主打手工制作情绪价值，TikTok爆款",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 91,
+      "demand": 88,
+      "competition": "low",
+      "score": 9.1,
+      "platform": "TikTok Shop",
+      "price": {
+        "cost": 0.65,
+        "sell": 10.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "义乌干花工艺品",
+        "moq": 200,
+        "leadTime": "3-5天"
+      },
+      "tags": ["超高溢价", "TikTok爆款", "文艺"],
+      "notes": "成本0.3-1元，通过TikTok视频展示制作过程，月销1.8万单"
+    },
+    {
+      "id": "prod-20260411-005",
+      "name": "中国剪纸艺术品",
+      "description": "传统手工剪纸，主打文化艺术标签，精美装裱",
+      "category": "home",
+      "potential": "high",
+      "potentialText": "高潜力",
+      "margin": 90,
+      "demand": 75,
+      "competition": "low",
+      "score": 8.5,
+      "platform": "Etsy",
+      "price": {
+        "cost": 4.00,
+        "sell": 58.00,
+        "currency": "GBP"
+      },
+      "supplier": {
+        "name": "河北蔚县剪纸",
+        "moq": 50,
+        "leadTime": "7-10天"
+      },
+      "tags": ["文化艺术", "手工", "超高溢价"],
+      "notes": "Etsy定价10-350美元，精美手工剪纸可达58英镑（530元）"
+    },
+    {
+      "id": "prod-20260411-006",
+      "name": "藤编收纳篮",
+      "description": "广西藤编篮，环保替代塑料概念，亚马逊爆款数百万件",
+      "category": "home",
+      "potential": "medium",
+      "potentialText": "中潜力",
+      "margin": 75,
+      "demand": 90,
+      "competition": "medium",
+      "score": 8.2,
+      "platform": "Amazon",
+      "price": {
+        "cost": 14.00,
+        "sell": 55.00,
+        "currency": "USD"
+      },
+      "supplier": {
+        "name": "广西藤编工厂",
+        "moq": 100,
+        "leadTime": "7-10天"
+      },
+      "tags": ["环保", "热销", "走量"],
+      "notes": "成本8-20元，主打环保替代塑料，Dior等奢侈品牌也采购"
+    }
+  ],
+  "summary": {
+    "totalProducts": 6,
+    "highPotential": 5,
+    "avgMargin": 85.3,
+    "topCategory": "home"
+  }
+}

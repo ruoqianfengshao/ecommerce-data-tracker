@@ -171,8 +171,8 @@ import { ref, computed, onMounted, watch } from 'vue'
 import ProductCard from './components/ProductCard.vue'
 import CategoryChart from './components/CategoryChart.vue'
 
-const selectedDate = ref('2026-04-12')
-const availableDates = ref(['2026-04-12', '2026-04-11'])
+const selectedDate = ref('2026-04-13')
+const availableDates = ref(['2026-04-13', '2026-04-12', '2026-04-11'])
 const selectedCategory = ref('all')
 const products = ref([])
 const loading = ref(true)

@@ -171,14 +171,36 @@ import { ref, computed, onMounted, watch } from 'vue'
 import ProductCard from './components/ProductCard.vue'
 import CategoryChart from './components/CategoryChart.vue'
 
-const selectedDate = ref('2026-04-13')
-const availableDates = ref(['2026-04-13', '2026-04-12', '2026-04-11'])
+// 默认使用今天的日期作为初始值
+const today = new Date().toISOString().split('T')[0] // YYYY-MM-DD
+const selectedDate = ref(today)
+const availableDates = ref([])
 const selectedCategory = ref('all')
 const products = ref([])
 const loading = ref(true)
 const loadingMore = ref(false)
 const pageSize = ref(6) // 每次加载6个产品
 const currentPage = ref(1)
+
+// 加载可用日期列表
+const loadAvailableDates = async () => {
+  try {
+    const response = await fetch('./data/manifest.json')
+    const manifest = await response.json()
+    availableDates.value = manifest.dates || []
+    
+    // 如果今天的数据不存在，使用最新的可用日期
+    if (!availableDates.value.includes(today) && manifest.latestDate) {
+      selectedDate.value = manifest.latestDate
+    }
+    
+    console.log('📅 Loaded dates:', availableDates.value)
+  } catch (error) {
+    console.error('Failed to load manifest:', error)
+    // 回退到默认日期列表
+    availableDates.value = ['2026-04-13', '2026-04-12', '2026-04-11']
+  }
+}
 
 // 格式化日期
 const formatDate = (dateStr) => {
@@ -278,8 +300,9 @@ watch(selectedCategory, () => {
 })
 
 // 初始化
-onMounted(() => {
-  loadData()
+onMounted(async () => {
+  await loadAvailableDates() // 先加载日期列表
+  await loadData()           // 再加载数据
 })
 </script>
 

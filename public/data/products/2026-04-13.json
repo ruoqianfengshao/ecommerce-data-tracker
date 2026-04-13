@@ -5,182 +5,201 @@
       "id": "prod_20260413_001",
       "name": "智能颈椎按摩仪",
       "category": "健康护理",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/628945712345.html",
-        "price": 45.00,
-        "moq": 2,
-        "supplier": "深圳智能科技",
-        "rating": 4.8
+      "platform": "Etsy",
+      "supplier": "深圳智能科技",
+      "price": {
+        "cost": 45.00,
+        "sell": 129.99
       },
-      "target_etsy": {
-        "suggested_price": 129.99,
-        "category": "Health & Wellness",
-        "keywords": ["neck massager", "smart massage", "pain relief", "wireless"]
-      },
-      "profit_margin": 65.4,
-      "demand_score": 8.7,
-      "competition_level": "medium",
+      "margin": 65.4,
+      "demand": 8.7,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "trending",
+      "score": 8.7,
+      "description": "便携式智能按摩仪，USB充电，适合办公人群。",
+      "notes": "Etsy 搜索量增长32%，颈椎健康市场持续扩大",
       "tags": ["trending", "high-margin", "wellness"],
-      "notes": "便携式设计，USB充电，适合办公人群。Etsy搜索量增长32%"
+      "links": {
+        "source": "https://detail.1688.com/offer/628945712345.html",
+        "target": "https://www.etsy.com/search?q=neck+massager+smart"
+      }
     },
     {
       "id": "prod_20260413_002",
       "name": "北欧风水泥花盆套装",
       "category": "家居装饰",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/745628193456.html",
-        "price": 18.50,
-        "moq": 6,
-        "supplier": "景德镇陶瓷工厂",
-        "rating": 4.9
+      "platform": "Etsy",
+      "supplier": "景德镇陶瓷工厂",
+      "price": {
+        "cost": 18.50,
+        "sell": 59.99
       },
-      "target_etsy": {
-        "suggested_price": 59.99,
-        "category": "Home & Living",
-        "keywords": ["concrete planter", "minimalist", "succulent pot", "modern decor"]
-      },
-      "profit_margin": 69.2,
-      "demand_score": 9.1,
-      "competition_level": "low",
+      "margin": 69.2,
+      "demand": 9.1,
+      "competition": "low",
+      "potential": "high",
+      "potentialText": "bestseller",
+      "score": 9.2,
+      "description": "3件套水泥花盆，带排水孔，简约设计。",
+      "notes": "Etsy \"concrete planter\" 月搜索量18K+，手工感设计受欢迎",
       "tags": ["bestseller", "handmade-look", "sustainable"],
-      "notes": "3件套装，带排水孔。Etsy \"concrete planter\" 月搜索量18K+"
+      "links": {
+        "source": "https://detail.1688.com/offer/745628193456.html",
+        "target": "https://www.etsy.com/search?q=concrete+planter+minimalist"
+      }
     },
     {
       "id": "prod_20260413_003",
       "name": "运动腰包多功能跑步包",
       "category": "运动户外",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/892374651234.html",
-        "price": 12.80,
-        "moq": 10,
-        "supplier": "广州运动用品厂",
-        "rating": 4.7
+      "platform": "Etsy",
+      "supplier": "广州运动用品厂",
+      "price": {
+        "cost": 12.80,
+        "sell": 38.99
       },
-      "target_etsy": {
-        "suggested_price": 38.99,
-        "category": "Sports & Fitness",
-        "keywords": ["running belt", "waist pack", "phone holder", "reflective"]
-      },
-      "profit_margin": 67.2,
-      "demand_score": 7.9,
-      "competition_level": "high",
-      "tags": ["seasonal", "summer-ready"],
-      "notes": "防水面料，可容纳6.7寸手机，夜跑反光条设计"
+      "margin": 67.2,
+      "demand": 7.9,
+      "competition": "high",
+      "potential": "medium",
+      "potentialText": "seasonal",
+      "score": 7.8,
+      "description": "防水跑步腰包，可容纳6.7寸手机，夜跑反光条。",
+      "notes": "夏季运动装备需求上升，反光设计增加安全性",
+      "tags": ["seasonal", "summer-ready", "fitness"],
+      "links": {
+        "source": "https://detail.1688.com/offer/892374651234.html",
+        "target": "https://www.etsy.com/search?q=running+belt+reflective"
+      }
     },
     {
       "id": "prod_20260413_004",
       "name": "复古打字机键盘（机械轴）",
       "category": "电子产品",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/934567812345.html",
-        "price": 89.00,
-        "moq": 1,
-        "supplier": "深圳外设制造",
-        "rating": 4.6
+      "platform": "Etsy",
+      "supplier": "深圳外设制造",
+      "price": {
+        "cost": 89.00,
+        "sell": 249.99
       },
-      "target_etsy": {
-        "suggested_price": 249.99,
-        "category": "Electronics & Accessories",
-        "keywords": ["typewriter keyboard", "mechanical", "retro", "steampunk"]
-      },
-      "profit_margin": 64.4,
-      "demand_score": 8.3,
-      "competition_level": "medium",
+      "margin": 64.4,
+      "demand": 8.3,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "niche",
+      "score": 8.5,
+      "description": "复古打字机造型机械键盘，青轴/茶轴可选，USB-C接口。",
+      "notes": "极客文化圈层产品，设计师和写作者喜爱，高溢价",
       "tags": ["niche", "geek-culture", "premium"],
-      "notes": "青轴/茶轴可选，USB-C接口，背光功能。适合设计师/写作者"
+      "links": {
+        "source": "https://detail.1688.com/offer/934567812345.html",
+        "target": "https://www.etsy.com/search?q=typewriter+keyboard+mechanical"
+      }
     },
     {
       "id": "prod_20260413_005",
       "name": "手工编织棉麻收纳筐",
       "category": "家居收纳",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/567823491234.html",
-        "price": 8.50,
-        "moq": 20,
-        "supplier": "临沂编织工艺",
-        "rating": 4.8
+      "platform": "Etsy",
+      "supplier": "临沂编织工艺",
+      "price": {
+        "cost": 8.50,
+        "sell": 32.99
       },
-      "target_etsy": {
-        "suggested_price": 32.99,
-        "category": "Storage & Organization",
-        "keywords": ["woven basket", "boho decor", "cotton rope", "nursery storage"]
-      },
-      "profit_margin": 74.2,
-      "demand_score": 8.9,
-      "competition_level": "medium",
+      "margin": 74.2,
+      "demand": 8.9,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "handmade",
+      "score": 9.0,
+      "description": "天然棉麻编织收纳筐，可折叠，多尺寸可选。",
+      "notes": "Boho风格持续热销，手工感设计符合可持续消费趋势",
       "tags": ["handmade", "eco-friendly", "bohemian"],
-      "notes": "天然棉麻，可折叠，多尺寸。Boho风格持续热销"
+      "links": {
+        "source": "https://detail.1688.com/offer/567823491234.html",
+        "target": "https://www.etsy.com/search?q=woven+basket+boho"
+      }
     },
     {
       "id": "prod_20260413_006",
-      "name": "宠物自动喂食器（智能定时）",
+      "name": "宠物智能喂食器",
       "category": "宠物用品",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/678912345678.html",
-        "price": 56.00,
-        "moq": 5,
-        "supplier": "宁波智能家居",
-        "rating": 4.9
+      "platform": "Etsy",
+      "supplier": "宁波智能家居",
+      "price": {
+        "cost": 56.00,
+        "sell": 159.99
       },
-      "target_etsy": {
-        "suggested_price": 159.99,
-        "category": "Pet Supplies",
-        "keywords": ["automatic feeder", "pet care", "smart timer", "cat dog"]
-      },
-      "profit_margin": 65.0,
-      "demand_score": 9.3,
-      "competition_level": "medium",
+      "margin": 65.0,
+      "demand": 9.3,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "pet-tech",
+      "score": 9.1,
+      "description": "6L大容量自动喂食器，APP控制，定时录音功能。",
+      "notes": "宠物科技市场增长强劲，智能化产品需求旺盛",
       "tags": ["pet-tech", "convenience", "high-demand"],
-      "notes": "6L大容量，APP控制，录音功能。宠物市场增长强劲"
+      "links": {
+        "source": "https://detail.1688.com/offer/678912345678.html",
+        "target": "https://www.etsy.com/search?q=automatic+pet+feeder"
+      }
     },
     {
       "id": "prod_20260413_007",
       "name": "LED创意霓虹灯字母装饰",
       "category": "灯具照明",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/823456789012.html",
-        "price": 28.00,
-        "moq": 3,
-        "supplier": "中山灯饰厂",
-        "rating": 4.7
+      "platform": "Etsy",
+      "supplier": "中山灯饰厂",
+      "price": {
+        "cost": 28.00,
+        "sell": 89.99
       },
-      "target_etsy": {
-        "suggested_price": 89.99,
-        "category": "Lighting",
-        "keywords": ["neon sign", "LED light", "custom letter", "wall decor"]
-      },
-      "profit_margin": 68.9,
-      "demand_score": 8.5,
-      "competition_level": "high",
+      "margin": 68.9,
+      "demand": 8.5,
+      "competition": "high",
+      "potential": "high",
+      "potentialText": "customizable",
+      "score": 8.6,
+      "description": "可定制字母/图案LED霓虹灯，USB供电，适合婚礼派对。",
+      "notes": "个性化装饰品持续火爆，Instagram风格家居必备",
       "tags": ["customizable", "instagram-worthy", "trending"],
-      "notes": "可定制字母/图案，USB供电，适合婚礼/派对装饰"
+      "links": {
+        "source": "https://detail.1688.com/offer/823456789012.html",
+        "target": "https://www.etsy.com/search?q=custom+neon+sign"
+      }
     },
     {
       "id": "prod_20260413_008",
       "name": "车载香薰加湿器",
       "category": "汽车用品",
-      "source_1688": {
-        "url": "https://detail.1688.com/offer/912345678901.html",
-        "price": 15.50,
-        "moq": 10,
-        "supplier": "东莞汽车配件",
-        "rating": 4.6
+      "platform": "Etsy",
+      "supplier": "东莞汽车配件",
+      "price": {
+        "cost": 15.50,
+        "sell": 49.99
       },
-      "target_etsy": {
-        "suggested_price": 49.99,
-        "category": "Car Accessories",
-        "keywords": ["car diffuser", "essential oil", "humidifier", "air freshener"]
-      },
-      "profit_margin": 69.0,
-      "demand_score": 7.6,
-      "competition_level": "high",
-      "tags": ["aromatherapy", "gift-idea"],
-      "notes": "USB车充供电，超声波雾化，7色呼吸灯。适合礼品市场"
+      "margin": 69.0,
+      "demand": 7.6,
+      "competition": "high",
+      "potential": "medium",
+      "potentialText": "gift-idea",
+      "score": 7.8,
+      "description": "USB车充供电，超声波雾化，7色呼吸灯。",
+      "notes": "适合礼品市场，香薰疗法与车载结合，实用性强",
+      "tags": ["aromatherapy", "gift-idea", "wellness"],
+      "links": {
+        "source": "https://detail.1688.com/offer/912345678901.html",
+        "target": "https://www.etsy.com/search?q=car+diffuser+essential+oil"
+      }
     }
   ],
   "summary": {
-    "total_products": 8,
-    "avg_profit_margin": 67.9,
+    "total": 8,
+    "avgMargin": 67.9,
+    "avgDemand": 8.5,
+    "highPotential": 6,
+    "mediumPotential": 2,
     "categories": {
       "健康护理": 1,
       "家居装饰": 1,
@@ -190,20 +209,13 @@
       "宠物用品": 1,
       "灯具照明": 1,
       "汽车用品": 1
-    },
-    "top_picks": [
-      "prod_20260413_002",
-      "prod_20260413_005",
-      "prod_20260413_006"
-    ],
-    "market_trends": [
-      "宠物科技产品需求持续上涨",
-      "手工感/自然材质家居用品受欢迎",
-      "个性化定制产品（霓虹灯、键盘）成为热点",
-      "健康护理类目（按摩、香薰）增长稳定"
-    ],
-    "notes": "本期选品侧重高利润率（>65%）和多样化品类。北欧风家居、宠物智能设备、个性化装饰为当前Etsy热门趋势。"
+    }
   },
-  "generated_at": "2026-04-13T10:42:00+08:00",
-  "version": "1.0"
+  "insights": [
+    "宠物科技产品需求最旺（需求分数9.3）",
+    "手工感/自然材质家居用品受欢迎（Boho风格）",
+    "个性化定制产品成为新趋势（霓虹灯、键盘）",
+    "健康护理类目稳定增长（按摩仪、香薰）",
+    "所有产品利润率>64%，平均67.9%"
+  ]
 }

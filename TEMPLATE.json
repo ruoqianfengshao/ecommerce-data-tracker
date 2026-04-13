@@ -1,0 +1,43 @@
+{
+  "date": "YYYY-MM-DD",
+  "products": [
+    {
+      "id": "prod_YYYYMMDD_001",
+      "name": "产品名称",
+      "category": "产品分类",
+      "platform": "Etsy",
+      "supplier": "供应商名称",
+      "price": {
+        "cost": 10.00,
+        "sell": 29.99
+      },
+      "margin": 66.7,
+      "demand": 8.5,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "trending",
+      "score": 8.5,
+      "description": "产品简短描述（1-2句话）",
+      "notes": "市场分析或特殊说明",
+      "tags": ["标签1", "标签2", "标签3"],
+      "links": {
+        "source": "https://detail.1688.com/offer/xxxxx.html",
+        "target": "https://www.etsy.com/search?q=keywords"
+      }
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "avgMargin": 66.7,
+    "avgDemand": 8.5,
+    "highPotential": 1,
+    "mediumPotential": 0,
+    "categories": {
+      "产品分类": 1
+    }
+  },
+  "insights": [
+    "市场趋势观察1",
+    "市场趋势观察2"
+  ]
+}

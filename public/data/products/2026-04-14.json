@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-14",
+  "products": [
+    {
+      "id": "prod_20260414_001",
+      "name": "透明抽屉式收纳盒",
+      "category": "home",
+      "platform": "Etsy",
+      "supplier": "义乌厂家",
+      "price": {
+        "cost": 1.39,
+        "sell": 24.99
+      },
+      "margin": 94.4,
+      "demand": 9.0,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "trending",
+      "score": 9.2,
+      "description": "透明塑料抽屉式收纳盒,适用于化妆品、文具、首饰等小物件整理",
+      "notes": "1688 成本: ¥10 (折合 $1.39, 汇率 7.2), 市场调研显示 Etsy 类似产品价格 $20-30",
+      "tags": ["storage", "organizer", "drawer", "transparent", "home decor"],
+      "links": {
+        "source": "https://m.1688.com/offer_search/-CDB8C3F7CAD5C4C9BAD0B3E9CCEB.html",
+        "target": "https://www.etsy.com/search?q=clear+drawer+organizer"
+      }
+    },
+    {
+      "id": "prod_20260414_002",
+      "name": "折叠式衣物收纳箱",
+      "category": "home",
+      "platform": "Etsy",
+      "supplier": "天津塑业",
+      "price": {
+        "cost": 0.56,
+        "sell": 32.99
+      },
+      "margin": 98.3,
+      "demand": 8.5,
+      "competition": "low",
+      "potential": "high",
+      "potentialText": "high margin",
+      "score": 8.8,
+      "description": "可折叠大容量衣物收纳箱,带盖防尘,适用于换季衣物、被子等大件整理",
+      "notes": "1688 成本: ¥4 (折合 $0.56, 汇率 7.2), Etsy 类似折叠收纳箱价格 $30-40",
+      "tags": ["storage", "foldable", "clothes", "organizer", "box"],
+      "links": {
+        "source": "https://m.1688.com/offer_search/-BFE7BEB3D7A8B9A920BCD2BED3D3C3C6B7.html",
+        "target": "https://www.etsy.com/search?q=foldable+storage+bin"
+      }
+    },
+    {
+      "id": "prod_20260414_003",
+      "name": "棉麻收纳筐套装",
+      "category": "home",
+      "platform": "Etsy",
+      "supplier": "浙江家居",
+      "price": {
+        "cost": 4.86,
+        "sell": 45.99
+      },
+      "margin": 89.4,
+      "demand": 8.0,
+      "competition": "medium",
+      "potential": "high",
+      "potentialText": "eco-friendly trend",
+      "score": 8.5,
+      "description": "现代简约棉麻收纳筐,手提设计,适用于玩具、杂物、脏衣等储物",
+      "notes": "1688 成本: ¥35 (折合 $4.86, 汇率 7.2), Etsy 棉麻收纳筐热销价格 $40-50",
+      "tags": ["storage", "basket", "linen", "eco-friendly", "farmhouse"],
+      "links": {
+        "source": "https://m.1688.com/offer_search/-BFE7BEB3D7A8B9A920BCD2BED3D3C3C6B7.html",
+        "target": "https://www.etsy.com/search?q=linen+storage+basket"
+      }
+    },
+    {
+      "id": "prod_20260414_004",
+      "name": "亚克力桌面收纳盒",
+      "category": "home",
+      "platform": "Etsy",
+      "supplier": "金华亿丰达",
+      "price": {
+        "cost": 0.50,
+        "sell": 28.99
+      },
+      "margin": 98.3,
+      "demand": 7.5,
+      "competition": "high",
+      "potential": "medium",
+      "potentialText": "steady demand",
+      "score": 7.8,
+      "description": "透明亚克力桌面整理盒,多格分隔设计,适用于化妆品、文具、首饰收纳",
+      "notes": "1688 成本: ¥3.6 (折合 $0.50, 汇率 7.2), Etsy 亚克力收纳盒价格 $25-35",
+      "tags": ["acrylic", "organizer", "desktop", "makeup", "clear"],
+      "links": {
+        "source": "https://s.1688.com/kq/-CDB8C3F7D1C7BFCBC1A6CAD5C4C9BAD0.html",
+        "target": "https://www.etsy.com/search?q=acrylic+organizer"
+      }
+    },
+    {
+      "id": "prod_20260414_005",
+      "name": "硅胶厨房收纳架套装",
+      "category": "home",
+      "platform": "Etsy",
+      "supplier": "广东厨具",
+      "price": {
+        "cost": 2.78,
+        "sell": 36.99
+      },
+      "margin": 92.5,
+      "demand": 7.8,
+      "competition": "low",
+      "potential": "high",
+      "potentialText": "kitchen trend",
+      "score": 8.2,
+      "description": "硅胶铲勺套装配收纳架,不粘锅专用,多色可选,厨房必备工具",
+      "notes": "1688 成本: ¥20 (折合 $2.78, 汇率 7.2), Etsy 硅胶厨具套装价格 $35-45",
+      "tags": ["kitchen", "silicone", "organizer", "utensils", "cooking"],
+      "links": {
+        "source": "https://m.1688.com/offer_search/-BCD2BED3D3C3C6B720CBD9C2F4CDA8B1ACBFEE.html",
+        "target": "https://www.etsy.com/search?q=silicone+kitchen+utensil+set"
+      }
+    },
+    {
+      "id": "prod_20260414_006",
+      "name": "木质桌面文具收纳盒",
+      "category": "home",
+      "platform": "Etsy",
+      "supplier": "山东曹县",
+      "price": {
+        "cost": 13.89,
+        "sell": 89.99
+      },
+      "margin": 84.6,
+      "demand": 6.5,
+      "competition": "medium",
+      "potential": "medium",
+      "potentialText": "vintage style",
+      "score": 7.2,
+      "description": "复古中式提盒设计,实木多层抽屉式收纳,适用于文具、茶具、首饰等",
+      "notes": "1688 成本: ¥100 (折合 $13.89, 汇率 7.2), Etsy 木质复古收纳盒价格 $80-120",
+      "tags": ["wood", "vintage", "organizer", "drawer", "desk"],
+      "links": {
+        "source": "https://product.11467.com/ziliao/6994201.pdf",
+        "target": "https://www.etsy.com/search?q=vintage+wood+organizer"
+      }
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "avgMargin": 92.9,
+    "avgDemand": 7.9,
+    "highPotential": 5,
+    "mediumPotential": 1,
+    "categories": {
+      "home": 6
+    }
+  },
+  "insights": [
+    "收纳整理类产品在 Etsy 持续热销,尤其是透明、可折叠、环保材质的产品",
+    "棉麻、亚克力、木质等天然或高端材质受到欢迎,符合环保和美学趋势",
+    "厨房和桌面收纳产品需求稳定,具有很高的利润空间(80%+)",
+    "复古和北欧简约风格是当前主流审美,产品设计应符合这些风格特征",
+    "多功能、可叠加、带盖防尘等实用功能是消费者关注的重点",
+    "1688 成本与 Etsy 售价之间存在巨大价差,平均溢价约 18-60 倍"
+  ]
+}
